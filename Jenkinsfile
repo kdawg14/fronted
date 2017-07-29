@@ -5,4 +5,4 @@ node {
   }
 }
 
-build job: 'configure', parameters: [[$class: 'StringParameterValue', name: 'BRANCH_NAME', value: env.BRANCH_NAME]]
+build job: 'playground/configure', parameters: [[$class: 'StringParameterValue', name: 'BRANCH_NAME', value: env.BRANCH_NAME]]
